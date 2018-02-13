@@ -41,12 +41,10 @@ body{
 	width: 100%;
 	height: 60px;
 	background: #222;
+	text-align: center;
 }
 s{
 	text-decoration: line-through;
-}
-#footer>#translations{
-	text-align: center;
 }
 #translations{
 	margin: 10px auto;
