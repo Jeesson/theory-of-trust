@@ -1,12 +1,12 @@
 @font-face{
-	font-family: 'FuturaHandwritten';
+	font-family: 'Lato';
 	font-style: normal;
-	src: url('../css/FuturaHandwritten.ttf') format('truetype');
+	src: url('../css/Lato.ttf') format('truetype');
 }
 
 body{
 	background: #fff;
-	font-family: "FuturaHandwritten";
+	font-family: "Lato";
 	font-size: 20px;
 	color: #222;
 	margin: 0;
