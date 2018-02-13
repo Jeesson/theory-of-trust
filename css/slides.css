@@ -10,28 +10,24 @@ html,body{
 }
 
 body{
-	
 	margin:0;
 	overflow: hidden;
-
 	background: #fff;
-
 	font-family: 'Lato';
 	color: #333;
 	font-size: 20px;
-
 }
 #preloader{
 	position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
-    text-align: center;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 200px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
 }
 #main{
 	width: 100%;
@@ -52,11 +48,12 @@ s{
 
 #translations{
 	margin: 10px auto;
-    font-size: 12px;
-    line-height: 21px;
-    color: #fff;
-    text-align: center;
-    width: 900px;
+	font-size: 12px;
+	line-height: 21px;
+	color: #fff;
+	text-align: center;
+	width: 900px;
+	vertical-align: center;
 }
 #translations a{
 	color:#dd4040;
@@ -91,8 +88,8 @@ s{
 }
 #sound #sound_on, #sound #sound_off{
 	left: 52px;
-    font-size: 30px;
-    line-height: 55px;
+	font-size: 30px;
+	line-height: 55px;
 }
 #sound #sound_on{
 	color:#fff;
@@ -247,7 +244,7 @@ s{
 .button[size=short] #text{
 	width:105px;
 	/*font-size: 18px;
-    top: 18px;*/
+	top: 18px;*/
 }
 .button[size=short] #hitbox{
 	width:115px;
@@ -268,7 +265,7 @@ s{
 	width:345px;
 }
 .button:active{
-    transform: scale(0.95, 0.95);
+	transform: scale(0.95, 0.95);
 }
 
 
@@ -314,9 +311,9 @@ s{
 	width:50px; height:50px;
 	font-size: 25px;
 	text-align: center;
-    top: -16px;
-    left: -25px;
-    cursor: default;
+	top: -16px;
+	left: -25px;
+	cursor: default;
 }
 .incdec > .incdec_control{
 	left:-10px;
@@ -372,9 +369,9 @@ s{
 }
 .sandbox_pop_label{
 	font-size: 18px;
-    width: 150px;
-    top: 8px;
-    left: 50px;
+	width: 150px;
+	top: 8px;
+	left: 50px;
 }
 
 /*************************/
@@ -411,11 +408,11 @@ s{
 }
 #scoreboard > div:nth-child(1){
 	left: 20px;
-    top: 21px;
+	top: 21px;
 }
 #scoreboard > div:nth-child(2){
 	right: 15px;
-    top: 21px;
+	top: 21px;
 }
 
 /*************************/
@@ -432,7 +429,7 @@ s{
 	width: 105px;
 	height: 114px;
 	top: -5px;
-    left: -10px;
+	left: -10px;
 }
 .character #desc{
 	width: calc(100% - 100px);
@@ -465,13 +462,13 @@ s{
 	background-size: auto 100%;
 	display: inline-block;
 	position: relative;
-    top: 1px;
+	top: 1px;
 }
 .icon_label{
 	display: inline-block;
 	font-size: 20px;
 	position: relative;
-    top: -3px;
+	top: -3px;
 }
 .tft .icon{ 		background-position: 0 0; }
 .all_d .icon{ 	background-position: -25px 0; }
@@ -504,7 +501,7 @@ s{
 #select{
 	width:100%;
 	text-align: center;
-    padding-top: 15px;
+	padding-top: 15px;
 }
 #select .dot{
 	width: 30px;
