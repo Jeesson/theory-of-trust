@@ -52,10 +52,6 @@ s{
 	color: #fff;
 	text-align: center;
 	width: 900px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-
 }
 #translations a{color:#dd4040;}
 #translations a:hover{color:#ee5151;}
