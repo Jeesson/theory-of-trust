@@ -45,7 +45,9 @@ body{
 s{
 	text-decoration: line-through;
 }
-
+#footer>#translations{
+	text-align: center;
+}
 #translations{
 	margin: 10px auto;
 	font-size: 12px;
@@ -53,7 +55,7 @@ s{
 	color: #fff;
 	text-align: center;
 	width: 900px;
-	text-align: center
+	text-align: center;
 }
 #translations a{color:#dd4040;}
 #translations a:hover{color:#ee5151;}
